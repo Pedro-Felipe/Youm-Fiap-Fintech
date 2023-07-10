@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+
+    --Tamanhop:clamp(0.8rem, 3vw, 1.5rem);
+    --Tamanhodesc:clamp(0.7rem, 3vw, 1.4rem);
+    --Tamanhovalor:clamp(1.2rem, 4.2vw, 1.7rem);
+    --Tamanhoh4:clamp(1.2rem, 4.3vw, 1.8rem);
+    --Tamanhoh3:clamp(1.5rem, 5vw, 2.5rem);
+    --Tamanhohicon:clamp(2.4rem, 5vw, 4rem);
+}
+
+.top {
+   margin-bottom: 2%;
+    width: auto;
+    height: auto;
+ }
+
+.mid {
+    background-color: rgba(220, 220, 220, 1);
+    width: auto;
+    height: auto;
+}
+
+ .grid1 {
+    margin-top: 10px;
+ }
+
+ .saudacao{
+    padding: 10% 0px 0px;
+    margin-top: 15px;
+    font-size:var(--Tamanhop);
+ }
+
+ .saldo{
+    font-size: var(--Tamanhop);
+    text-align: center;
+    margin: 8% 0 4% 0;
+    color: white;
+    background-color:rgba(0, 63, 185, 0.74) ;
+    border-radius: 20px;
+ }
+
+ .gasto{
+    font-size: var(--Tamanhop);
+    margin: 5% 10%;
+    color: white;
+    padding:14px;
+    background-color: #BD1A31;
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 1px black;
+    text-align: center;
+ }
+
+ .gasto:hover {
+   font-size: var(--Tamanhoh4)
+ }
+
+ .renda{
+    font-size: var(--Tamanhop);
+    text-align: center;
+    margin: 5% 10%;
+    color: white;
+    padding: 14px;
+    background-color: #469C46;
+    box-shadow: 0px 0px 6px 1px black;
+    border-radius: 20px;
+ }
+
+ .renda:hover {
+   font-size: var(--Tamanhoh4)
+ }
+
+ .feliz{
+   margin-left: 10px;
+   border-radius: 10px;
+    box-shadow: 0px 0px 6px 0.5px black;
+    padding: 5px;
+    
+ }
+ 
+ .triste {
+   margin-left: 10px;
+   border-radius: 10px;
+    box-shadow: 0px 0px 6px 0.5px black;
+    padding: 5px;
+   
+ }
+
+
+ .nameuser {
+    margin-top: -20px;
+    font-size: var(--Tamanhoh3);
+ } 
+
+ .valorconta{
+    font-size: var(--Tamanhoh3);
+    text-align: center;
+ }
+
+ .perfilft {
+    margin: 4px;
+    padding: 1px;
+    border-radius: 60%;
+ }
+
+.icon {
+   margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: var(--Tamanhop);
+}
+
+.titlecat {
+    padding: 4%;
+    font-size: var(--Tamanhoh4);
+    text-align: center;
+
+}
+
+.menubar {
+   margin: 0 auto;
+   color: white;
+}
+.navbar {
+      margin: 0 auto;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgba(0, 63, 185, 0.74) ;
+}
+
+.botao{
+    margin: 0px;
+}
+
+.historicobox{
+   margin: 0 auto;
+   background-color: white;
+   border-radius: 20px;
+   margin-bottom: 3%;
+}
+
+.historicovl {
+   font-family: 'Viga', sans-serif;
+   font-weight: 400px;
+   font-size: var(--Tamanhovalor);
+   margin-top: -80px;
+   text-align: end;
+}
+
+.historicocat {
+   font-size: var(--Tamanhodesc);
+   text-align: right;
+   margin-top: -20px;
+}
+
+.icons {
+   text-align: left;
+   border-radius: 5px;
+   font-size: var(--Tamanhohicon);
+   margin-bottom: 20px;
+   padding: 15px;   
+   transition: .5s;}
+
+.historicobox:hover {
+   background-color: rgba(220, 220, 220, 1);
+   border-color: transparent;
+}
+
+
+.youm {
+   font-size: var(--Tamanhoh3);
+   margin: 0 auto;
+   margin-top: 10px;
+   text-align: center;
+   font-family: 'ABeeZee', sans-serif;
+
+}
+
+.itensnav{
+   margin:  auto 10px;
+   padding: 5px;
+   border-radius: 10px;
+}
+
+.itensnav:hover{
+   background-color: rgba(0, 63, 185, 0.74);
+   font-size: 18px;
+}
+
+ /* pagina de login */
+
+
+ .titulo {
+    margin-top: 50px;
+    font-size: 500%;
+    font-weight: 500;
+}
+
+.descricao{
+    font-family: 'Commissioner', sans-serif;
+    font-size: x-large;
+    margin-top: 30px;
+ }
+
+ .ou{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+ }
+
+ .b1 {
+    background-color: #3B579D;
+    color: white;
+ }
+
+ .b2 {
+    margin-top: 20px;
+    padding: 10px 40px;
+    color: white;
+    background-color: rgba(0, 63, 185, 74)
+
+ }
+
+
+ .b3 {
+    padding: 10px 60px;
+    margin-bottom: 30px;
+    color: black;
+    box-shadow: 0px 0px 12px 4px #ccc
+ }
+
+.one {
+    background-color:blue;
+    padding: 30px;
+}
+
+.linktext {
+   text-decoration: none;
+}
+
+.linkblack{
+   color: black;
+}
+
+.linkwhite{
+   color: white;
+}
